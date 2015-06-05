@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-16">
+  
+  <script>
+	
+
+	
+	function func1(id){
+	
+		if(id=="bcd"){
+			document.getElementById("bcd").src="img\\icons\\casamento_img7.png";
+		}
+		if(id=="dir"){
+			document.getElementById("dir").src="img\\icons\\casamento_img8.png";
+		}
+		if(id=="drc"){
+			document.getElementById("drc").src="img\\icons\\casamento_img9.png";
+		}
+		if(id=="pre"){
+			document.getElementById("pre").src="img\\icons\\casamento_img10.png";
+		}
+		if(id=="botHome"){
+			document.getElementById("botHome").src="img\\icons\\casamento_img21.png";
+		}
+	}
+	
+		function func2(id){
+	
+		if(id=="bcd"){
+			document.getElementById("bcd").src="img\\icons\\casamento_img3.png";
+		}
+		if(id=="dir"){
+			document.getElementById("dir").src="img\\icons\\casamento_img4.png";
+		}
+		if(id=="drc"){
+			document.getElementById("drc").src="img\\icons\\casamento_img5.png";
+		}
+		if(id=="pre"){
+			document.getElementById("pre").src="img\\icons\\casamento_img6.png";
+		}
+		if(id=="botHome"){
+			document.getElementById("botHome").src="img\\icons\\casamento_img19.png";
+		}
+	}
+  </script>
+  
+    <style>
+		
+		body{
+			margin: 0;
+			padding: 0;
+			color: white;
+			font-family:"Trebuchet MS", Helvetica, sans-serif;
+			position: absolute;
+			left: 12.5%;
+			width: 75%;
+			text-align: center
+		}
+	p {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+/*line-height: 50%;*/
+		
+		.home{
+			position:relative;
+			//background-image: "\img\fotografias\pedido.jpg";
+			overflow=hidden;
+			width:100%;
+		}
+		
+		.capa{
+			width: 100%;
+			height: auto;
+		}
+		
+		.pecas{
+			  position: absolute;
+			  width: 100%;
+			  top: 5%;
+			  align-content: center;
+		}
+		.botao{
+			position: relative;
+			height: 10vh;
+			width: auto;
+		}
+		.slide{
+			margin:0;
+			padding:0;
+			position:relative;
+			height:100vh;
+			//height: 512px;
+			text-align: center;
+			margin-bottom: 1px;  
+			margin-top: 5px;
+			align-content: center;
+		}
+	
+		.rodape{
+			position: relative;
+			height: 7%;
+			width: auto;
+		}
+		
+		.text{
+			position: relative;
+			top: 12%;
+		
+		
+		.imgBox {
+			position: relative;
+			height: 10vh;
+			width:10vh;
+			//src:".\img\icons\casamento_img3.png"; 
+			} 
+			
+		
+	
+	</style>
+  </head>
+  <body>
+	<div id="home" class=home>
+		<img class=capa style="z-index=-2;" src=".\img\fotografias\casamento.jpg"></img>
+		<div class=pecas >
+			<img style="position: relative; height: 150px;  width: auto;" src=".\img\icons\casamento_img.png"></img>
+			<div style="position: relative;width:100%;">
+				<a  href="#convite"><img id="bcd" class=botao align="center" onmouseover="func1(this.id)" onmouseout="func2(this.id)" src=".\img\icons\casamento_img3.png" ></img></a>
+				<a  href="#direcoes"><img id="dir" class=botao align="center" onmouseover="func1(this.id)" onmouseout="func2(this.id)"src=".\img\icons\casamento_img4.png"></img></a>
+				<a  href="#dressCode"><img  id="drc" class=botao align="center" onmouseover="func1(this.id)" onmouseout="func2(this.id)" src=".\img\icons\casamento_img5.png"></img></a>
+				<a  href="#prenda"><img id="pre" class=botao align="center" onmouseover="func1(this.id)" onmouseout="func2(this.id)" src=".\img\icons\casamento_img6.png"></img></a>
+			</div>
+		</div>
+		
+	</div>
+	
+	
+    <div id="convite" style="margin-top:0px;background-color:rgb(136,188,228);" class=slide>
+		<img class=rodape src=".\img\icons\casamento_img17.png"></img>
+		
+		<div style="position: relative;  width: 100%;  align-content: center;  top: 7%;" align="center">
+			<img style="position: relative; height: 69px;"; src=".\img\icons\casamento_img13.png"></img>
+		</div>
+		
+		<div style="" class=text>
+		<p>O dia do nosso casamento está mesmo a chegar...</p>
+		<p>Estamos ansiosos, talvez um bocadinho nervosos e muito, muito felizes!</p>
+		<p>Neste dia de festa, a presença da família e amigos é crucial.</p>
+		<p>Contamos com a vossa companhia, no dia 10 de Outubro de 2015,</p>
+		<p>no Mosteiro de Landim.</p>
+		<br>
+		<p><b>Está quase!</b></p><br>
+		<p>A cerimónia terá início às 15h30, na Igreja de Santa Maria de Landim,</p>
+		<p>e a festa continuará no Mosteiro.</p>
+		<br>
+		
+<p style="font-size:70%">Pedimos que tenham o cuidado de confirmar a vossa presença</p>
+		</div>
+		
+	</div>
+
+	<div id="direcoes" style="background-color:white;" class=slide>
+		<img class=rodape src=".\img\icons\casamento_img16.png"></img>
+		
+		<div style="  position: absolute;  float: left;  top: 20%;  height: 60%;  width: 100%;">
+			<img style="  position: absolute;  left: 0%;  top: 10%;  width: 50%;" src=".\img\fotografias\landim2.jpg"></img>
+			<div style="  position: relative; width:50%; text-align: left;  float: left;  color: black;  left: 55%;  font-size: 100%;    top: 7%;">
+				<p>A partir do Porto:</p>
+				<br>
+				<p>- Autoestrada A3 Porto-Braga</p>
+				<p>- Saída 6 para Guimarães, Vila do Conde, Famalicão</p>
+				<p>- Seguir em direção a A7 Vila do Conde / Famalicão</p>
+				<p>- Seguir na direção N14 Famalicão / Trofa</p>
+				<p>- Portagem - Seguir na direção N14 Braga / Famalicão</p>
+				<p>- Seguir na direção N204 Stº Tirso</p>
+				<p>- Após cerca de 2km, seguir na direção da tabuleta</p>
+				<p>“Mosteiro de Landim 2.3km”</p>
+				<br><p>Coordenadas GPS:</p>
+				<p>41º 22’ 46.3218’’ N | 8º 27’ 52.776’’ w</p>
+			</div>
+		</div>
+	</div>
+	
+	<div id="dressCode" style="background-color:rgb(129,202,156);" class=slide>
+		<img class=rodape src=".\img\icons\casamento_img17.png"></img>
+		<div class=text style="top:15%;">
+			<p style="font-size:200%;">Dress Code</p>
+			<br><br>
+			<p>A noiva vai de braco,</p>
+			<p>O noivo vai de fato escuro,</p>
+			<p>os senhores vão como o noivo e</p>
+			<p>as senhoras não devem ir como a noiva.</p>
+		</div>
+	</div>
+	
+	<div id="prenda" style="background-color:rgb(244,120,120);"  class=slide>
+		<img class=rodape src=".\img\icons\casamento_img17.png"></img>
+		<div class=text style="top:15%;">
+			<p style="font-size:200%;">Prenda:</p>
+			<br>
+			<p>Não pedimos prenda.</p>
+<p>A presença dos convidados é a melhor prenda que podemos ter!</p>
+<p>No caso de nos quererem deixar uma lembrança, informamos que temos lista de casamento:</p>
+<br>
+<p>1. Na AREA Nortshopping,</p>
+<p>que nos vai ajudar a decorar e preencher a nossa futura casa;</p>
+<br>
+<p>2. Na ABREU Cidade do Porto</p>
+<p>Onde podem contribuir para a nossa lua de mel,</p>
+<br>
+<p>Antecipamos desde já o agradecimento</p>
+		</div>
+	
+	</div>
+  
+	<div id="fim" style="background-color:white;" class=slide>
+		<img class=rodape src=".\img\icons\casamento_img16.png"></img>
+		
+		<img style="  position: absolute;    left: 32%;  top: 16%;  width: 35%;" src=".\img\icons\casamento_img15.png"></img>
+		
+		<div class=text style="   color: rgb(136,188,228); top: 70%;">
+			<p>Confirmar para:</p>
+			<p><b>carolinafolhadelamoura@gmail.com</b></p>
+			<p><b>pontes88@gmail.com</b></p>
+		</div>
+	</div>
+  
+	<a style="position:fixed; top: 40%; right: 13%;" href="#home">
+			<img id=botHome style="height: 10vh;  width: auto;" src=".\img\icons\casamento_img.png"></img>
+	</a><!--onmouseover="func1(this.id)"onmouseout="func2(this.id)" */-->
+	
+  </body>
+</html>
